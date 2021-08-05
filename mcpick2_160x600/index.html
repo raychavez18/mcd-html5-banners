@@ -1,0 +1,81 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>McD All Day Breakfast 2.0</title>
+	
+	<!-- Fonts Included-->
+	
+		<!--
+			E.g. -> <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+		-->
+	
+	<!-- End Fonts Included-->
+	
+	<link rel="stylesheet" href="styles/style.css" />
+	
+	<!-- Scripts Included-->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+	
+	<!-- Script tags have classes pertaining to which Third Party Ad Server they belong to -->
+	
+    <script class="dcjs" type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
+	<script class="dcjs" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script type="text/javascript">
+		<!-- This is needed, because for some reason, the clicktag is not detected if included in an external js file -->
+		var clickTag = "http://google.com";
+	</script>
+	
+	<script type="text/javascript" src="scripts/platform.js"></script>
+	
+	<!-- End Scripts Included-->
+	
+	<script>
+		var $ = jQuery.noConflict();
+		
+		$(document).dispatchPlatform({
+			$platform:"DC", 						//	Options are at the moment "DC" -> DoubleClick & "SK" -> Sizmek			
+			$collapsedSize:	[160, 600]				//	Size ([Width, Height]) of the collapsed state of the unit *If Not Rich, this is consists of the dimensions of the unit*
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<script src="scripts/script.js"></script>
+	
+    <div id="main-panel" class="a o">
+	
+				 <!-- Standard Display Unit -->
+	
+        <!-- ************* Custom Code Here ************* -->
+		
+      <div id="cover" class="a o"></div>
+        <div id="bannerBg" class="a o"></div>
+        <div id="logo" class="a o"></div>
+        <div id="logo_s" class="a"></div>
+        <div id="logo_f" class="a"></div>
+        <div id="t1" class="a o"></div>
+        <div id="t2" class="a o"></div>
+        <div id="t3" class="a o"></div>
+        <div id="t4b" class="a o"></div>
+        <div id="t5" class="a o"></div>
+        <div id="f1" class="a o"></div>
+        <div id="f2" class="a o"></div>
+        <div id="f3" class="a o"></div>
+        <div id="f4" class="a o"></div>
+        <div id="legal" class="a"></div>
+        <div id="bannerButton" class="a"><a href="#" title="Try it now"><img src="images/cta.png" alt="Try it now" /></a></div>
+        
+		<!-- ************* End Custom Code ************* -->
+	
+		
+    </div>
+</body>
+
+</html>

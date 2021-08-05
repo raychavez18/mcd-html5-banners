@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main-panel {
+	position: absolute;
+	overflow: hidden;
+}
+
+/*   Collapsed Panel   */
+#collapsed-panel {
+	
+}
+
+/*   Expanded Panel   */
+#expanded-panel{
+	
+}
+
+.alphaed {
+	opacity: 0;
+	display: inline-block;
+}
+
+.cta {
+	cursor: pointer;
+	z-index: 100;
+	position: absolute;
+}
+
+.col-full {
+	
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.free {
+	position: absolute;
+}
+
+.exp-full {
+	
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.bg {
+	position: relative;
+	background-color: #000;
+}
+
+.exit {
+	z-index: 75;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	opacity: 0;
+}
+
+#bg-exp-exit {
+	
+}
+
+/*   Expanded Panel   */
+#video-player {
+	
+}
+
+
+
+
+#start {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /*display: none;*/
+}
+
+#l {
+  position: absolute;
+  top: 108px;
+  left: 24px;
+  /*display: none;*/
+}
+
+#unchtime {
+  position: absolute;
+  top: 109px;
+  left: 54px;
+  /*display: none;*/
+}
+
+#bird {
+  position: absolute;
+  top: 175px; /*181px;*/
+  left: 0px; /*-12px;*/
+  /*display: none;*/
+  -ms-transform: scale(0.5,0.5); /* IE 9 */
+  -webkit-transform: scale(0.5,0.5); /* Safari */
+  transform: scale(0.5,0.5);
+}
+
+/*
+
+BIRD POSITION THROUGH WORDS
+top: 70px;
+left: 26px;
+
+WORD POSTIONS WHEN BIRD FLIES THROUGH
+#l
+left: 14px;
+
+#unchtime
+left: 74px;
+
+*/
+
+#clouds {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#end {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#slingshot {
+  position: absolute;
+  top: 206px;
+  left: 5px;
+}

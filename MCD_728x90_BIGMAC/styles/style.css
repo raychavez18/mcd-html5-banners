@@ -1,0 +1,271 @@
+@charset "utf-8";
+/*   version: "v3.2"  */
+   /* CSS Document */
+    
+body {
+	margin: 0;
+	padding: 0;
+}
+#unit-container {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+#main-panel {
+	border: 1px solid #000;
+	overflow: hidden;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.full {
+	width: 728px;
+	height: 90px;
+}
+.free {
+	position: absolute;
+}
+.centered {
+	text-align: center;
+}
+
+
+
+/*  Size Specific    */
+a {
+	border: none;
+}
+.a {
+	position: absolute;
+}
+.r {
+	position: relative;
+}
+.o {
+	overflow: hidden;
+}
+
+img {
+	border:none;
+}
+
+#cover {
+	background-color:#000000; 
+	width:728px; 
+	height:90px; 
+	z-index:9;
+}
+
+#bannerBg {
+	background-color:#000000;
+	background-image:url(../images/background.jpg); 
+	width:726px; 
+	height:88px; 
+	z-index:1;
+}
+
+#macJ{
+	
+	width:173px; 
+	height:90px; 
+	z-index:6;
+	left: 224px;
+	top: 0px;
+	overflow:hidden;
+	}
+	
+#f1 {
+	background-image:url(../images/f1.png); 
+	background-repeat:no-repeat; 
+	width:102px; 
+	height:57px; 
+	z-index:5;
+	left: 2px;
+	top: 33px;
+	-webkit-transform: translateX(173px);
+	-moz-transform: translateX(173px);
+	transform: translateX(173px);
+}
+	
+#r2 {
+	
+	width:68px; 
+	height:90px; 
+	z-index:7;
+	left: 105px;
+	top: 0px;
+	background-color:#282020;
+	-webkit-transform: translateX(69px);
+	-moz-transform: translateX(69px);
+	transform: translateX(69px);
+	}
+	
+#t2 {
+	background-image:url(../images/t2.png); 
+	background-repeat:no-repeat; 
+	width:42px; 
+	height:28px; 
+	z-index:8;
+	left: 119px;
+	top: 29px;
+	-webkit-transform: translateX(69px);
+	-moz-transform: translateX(69px);
+	transform: translateX(69px);
+}
+	
+
+#r3 {
+	
+	width:68px; 
+	height:90px; 
+	z-index:7;
+	left: 493px;
+	top: 0px;
+	background-color:#282020;
+	}
+	
+#f2 {
+	background-image:url(../images/f2.png); 
+	background-repeat:no-repeat; 
+	width:113px; 
+	height:70px; 
+	z-index:6;
+	left: 401px;
+	top: 20px;
+	 -webkit-transform: translateY(-7px) translateX(-8px) scale(1.25);  /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: translateY(-7px) translateX(-8px) scale(1.25);  /* IE 9 */
+          transform: translateY(-7px) translateX(-8px) scale(1.25);  /* Firefox 16+, IE 10+, Opera */
+}	
+	
+#t3 {
+	background-image:url(../images/t3.png); 
+	background-repeat:no-repeat; 
+	width:41px; 
+	height:30px; 
+	z-index:8;
+	left: 506px;
+	top: 29px;
+}
+	
+#macG{
+	
+	width:168px; 
+	height:90px; 
+	z-index:6;
+	left: 560px;
+	top: 0px;
+	overflow:hidden;
+	}	
+#f3 {
+	background-image:url(../images/f3.png); 
+	background-repeat:no-repeat; 
+	width:129px; 
+	height:78px; 
+	z-index:6;
+	left: 0px;
+	top: 14px;
+	-webkit-transform: translateX(168px);
+	-moz-transform: translateX(168px);
+	transform: translateX(168px);
+}	
+	
+	
+#r4 {
+	
+	width:68px; 
+	height:90px; 
+	z-index:7;
+	left: 100px;
+	top: 0px;
+	background-color:#282020;
+	
+	-webkit-transform: translateX(69px);
+	-moz-transform: translateX(69px);
+	transform: translateX(69px);
+	}
+
+#t4 {
+	background-image:url(../images/t4.png); 
+	background-repeat:no-repeat; 
+	width:57px; 
+	height:29px; 
+	z-index:8;
+	left: 105px;
+	top: 29px;
+	
+	-webkit-transform: translateX(69px);
+	-moz-transform: translateX(69px);
+	transform: translateX(69px);
+	}
+			
+#logo {
+	background-image:url(../images/logo.png); 
+	background-repeat:no-repeat; 
+	width:53px; 
+	height:43px; 
+	z-index:7;
+	left: 8px;
+	top: 9px;
+}
+
+
+#t0 {
+	background-image:url(../images/t0.png); 
+	background-repeat:no-repeat; 
+	width:168px; 
+	height:20px; 
+	z-index:8;
+	left: 72px;
+	top: 8px;
+}
+
+#t1 {
+	background-image:url(../images/t1.png); 
+	background-repeat:no-repeat; 
+	width:122px; 
+	height:36px; 
+	z-index:8;
+	left: 0px;
+	top: 0px;
+	-webkit-transform: translateX(-122px);
+	-moz-transform: translateX(-122px);
+	transform: translateX(-122px);
+}
+
+#t1w {
+	overflow:hidden;
+	width:122px; 
+	height:36px; 
+	z-index:8;
+	left: 72px;
+	top: 29px;
+}
+
+
+
+
+
+
+
+#legal {
+	background-image:url(../images/legal.png); 
+	background-repeat:no-repeat; 
+	width:220px; 
+	height:16px; 
+	z-index:7;
+	left: 4px;
+	top: 80px;
+	opacity:0;
+}
+
+
+#bannerButton {
+	left: 72px; 
+	top: 51px;
+	z-index:8;
+	border:none;
+	 -webkit-transform: scale(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: scale(0);  /* IE 9 */
+          transform: scale(0);  /* Firefox 16+, IE 10+, Opera */
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FoodVision Standard</title>
+	
+	<!-- Fonts Included-->
+	
+		<!--
+			E.g. -> <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+		-->
+	
+	<!-- End Fonts Included-->
+	
+	<link rel="stylesheet" href="styles/style.css" />
+	
+	<!-- Scripts Included-->
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+	
+	<!-- Script tags have classes pertaining to which Third Party Ad Server they belong to -->
+	
+	<script class="skjs" type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
+	
+	<script class="dcjs" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script class="dcjs" type="text/javascript">
+		var clickTag = "";
+	</script>
+	
+	<script type="text/javascript" src="scripts/platform-sd.js"></script>	<!-- This is the STANDARD Version of the Plugin -->
+    
+	<!-- End Scripts Included-->
+	
+	<script>
+		var $ = jQuery.noConflict();
+		
+		$(document).dispatchStandard({
+			$platform:"DC", 						//	Options are at the moment "DC" -> DoubleClick & "SK" -> Sizmek
+			$size:	[300, 250]						//	Size ([Width, Height]) of the unit
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<script src="scripts/script.js"></script>
+	
+    <div id="main-panel">
+	
+				 <!-- Standard Display Unit -->
+	
+        <!-- ************* Custom Code Here ************* -->
+		
+        <div id="logo" class="free">
+        	<img src="images/logo.png" alt="logo">
+        </div>
+        
+        <div id="copy-mask" class="free">
+            <img src="images/burger-mask.png" alt="copy mask">
+        </div>
+        
+        <div id="end-content">
+        	<div id="desc-copy" class="free hidden">
+            	<img src="images/desc-txt.png" alt="desc copy">
+            </div>
+            
+            <div id="legal" class="free hidden">
+            	<img src="images/legal.png" alt="legal">
+            </div>
+            
+            <div id="cta" class="free hidden">
+            	<img src="images/cta.png" alt="cta">
+            </div>
+        </div>
+        
+        <div id="copy-holder">
+        	<div id="copy-1" class="copy free">
+            	<img src="images/copy-1.png" alt="copy 1">
+            </div>
+            <div id="copy-2" class="copy free">
+            	<img src="images/copy-2.png" alt="copy 2">
+            </div>
+            <div id="copy-3" class="copy free">
+            	<img src="images/copy-3.png" alt="copy 3">
+            </div>
+            <div id="copy-4" class="copy free hidden">
+            	<img src="images/copy-4.png" alt="copy 4">
+            </div>
+        </div>
+      
+       	<div id="burger-bg" class="free">
+        	<span id="burger-img" class="free">
+       			<img src="images/burger-bg.jpg" alt="burger bg">
+            </span>
+        </div>
+       
+        
+		<!-- ************* End Custom Code ************* -->
+	
+		
+    </div>
+</body>
+
+</html>

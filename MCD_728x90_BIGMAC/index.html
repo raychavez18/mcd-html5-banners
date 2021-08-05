@@ -1,0 +1,117 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="utf-8">
+	<meta name="unit-size" content="width=728,height=90">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MCD - BIG MAC</title>
+
+	<!-- Fonts Included-->
+
+	<!--
+			E.g. -> <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+		-->
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+	<!-- End Fonts Included-->
+
+	<link rel="stylesheet" href="styles/style.css" />
+
+	<!-- Scripts Included-->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Since DC & Sizmek's platform REQUIRES the external script tag within the main HTML file, here we apply the tag (NOT Ideal & Very Ugly) -->
+	<script type="text/javascript" id="EnablerJS" class="dcjs" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<!--<script type="text/javascript" id="EbloadJS" class="skjs" src=" https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js"></script>-->
+	<script type="text/javascript" src="scripts/platform.js"></script>
+
+	<!-- End Scripts Included-->
+
+	<script type="text/javascript">
+		
+		$(document).dispatch({	
+			//	Options are at the moment "DC" -> DoubleClick , "SK" -> Sizmek , "FT" -> FlashTalking , "" -> None		
+			$platform:"DC", 
+			
+			//	Option to Load External Animation Library or Not (Greensock {1 - "Max", 2 - "Lite"}).  If None Chosen, will default to not loading the Tweening Engine.
+			//	The loaded URI is the CDN endpoint to the latest version of GS.
+			$loadGS: 1,
+			
+			//	Select If the Unit is Dynamic or Static (Now ONLY Supports FlashTalking)
+			$dataType: "Dynamic",
+			
+			//	If the Unit Will be Dynamic, This array will hold the elements to be Registered with the variables in the Manifest.js file (Flash Talking)
+			//$dynElms: ["copy-1-txt", "copy-2-txt", "food_img", "cta-txt"],
+			
+			//	This Array holds the Variable(s) from which the elements in "$dynElms" will be populated with
+			//$dynVars: ["copy_1", "copy_2", "food_img", "cta_text"],
+			
+			//	How Many Clicktags will be used within the Unit (Other than the Default Click Thru).  If None, are provided, will default to 0.
+			$altTags: 0,
+			
+			//	The Elements that will Possess a CLick Tag.  Only Needed if the "$altTags" Option is Greater than 0.
+			$ctElms: [],
+			
+			//	Size ([Width, Height]) of the unit
+			$size:	[728, 90],
+			
+			//	The border color of the unit (If None Given in Options, will Default to Black)
+			//$borderColor: "#1c994e",
+			$borderColor: "#000",
+			
+			//	The font included within the Unit (Especially Needed if Dynamic / Instant Unit)
+			$font: "'Fjalla One', sans-serif",
+		//	Does the Unit have "Replay" Functionality
+			$replay: false,
+			
+			//	If the Unit Has a replay Button, Vars for Button (Array of [{hexcolor}, {size}, {position: "topLeft", "topRight", "bottomLeft", or "bottomRight"}])
+			$replayVars: [],
+			
+			//	Sets a Logger for When Testing Edits / Updates to Plugin And / Or Unit Code	
+			$testing: false
+		});
+		
+	</script>
+	</head>
+
+	<body>
+<script src="scripts/script.js"></script>
+<div id="unit-container"> 
+<div id="main-panel"> 
+      
+      <!-- ************* Custom Code Here ************* -->
+		
+        <div id="cover" class="a o"></div>
+        <div id="bannerBg" class="a o"></div>
+        <div id="logo" class="a o"></div>
+        
+        <div id="macJ" class="a">
+        <div id="r2" class="a"></div>
+        <div id="f1" class="a"></div>
+         <div id="t2" class="a"></div>
+        </div>
+        
+        <div id="r3" class="a"></div>
+        <div id="f2" class="a"></div>
+        <div id="t3" class="a"></div>
+        
+        <div id="macG" class="a">
+        <div id="r4" class="a"></div>
+        <div id="f3" class="a"></div>
+        <div id="t4" class="a"></div>
+        </div>
+        
+        <div id="t0" class="a"></div>
+        <div id="t1w" class="a"><div id="t1" class="a"></div></div>
+        
+        <div id="legal" class="a"></div>
+        <div id="bannerButton" class="a"><a href="#" title="Try it now"><img src="images/cta.png" alt="Try it now" /></a></div>
+		<!-- ************* End Custom Code ************* -->
+	
+		
+    </div></div>
+</body>
+
+</html>

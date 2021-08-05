@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main-panel {
+	position: relative;
+	overflow: hidden;
+}
+
+.cta {
+	cursor: pointer;
+	z-index: 100;
+	position: absolute;
+}
+
+.col-full {
+	
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.free {
+	position: absolute;
+}
+
+.exp-full {
+	
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.bg {
+	position: relative;
+	background-color: #000;
+}
+
+.exit {
+	z-index: 75;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	opacity: 0;
+}
+
+
+/*     Campaign Specific     */
+
+#logo {
+	z-index: 5;
+	bottom: 10px;
+	left: 10px;
+}
+
+#logo, #logo > img {
+	width: 42px;
+	height: 33px;
+}
+
+#copy-holder {
+    width: 300px;
+	position: relative;
+	display: inline-block;
+}
+
+.copy {
+	z-index: 2;	
+	-ms-transform: scale(0,0);
+	-webkit-transform: scale(0,0);
+	transform: scale(0,0);
+}
+
+#copy-mask {
+	left: 66px;
+    top: 82px;
+    z-index: 3;
+}
+
+#copy-mask, #copy-mask > img {
+	height: 53px;
+    width: 175px;
+}
+
+#copy-1 {
+	left: 29px;
+}
+
+#copy-1, #copy-1 > img {
+	width: 244px;
+	height: 70px;
+}
+
+#copy-2 {
+	left: 60px;
+}
+
+#copy-2, #copy-2 > img {
+	width: 190px;
+	height: 72px;
+}
+
+#copy-3 {
+	left: 50px;
+}
+
+#copy-3, #copy-3 > img {
+	width: 210px;
+	height: 72px;
+}
+
+#copy-4 {
+	left: 30px;
+	
+	-ms-transform: scale(.8,.8);
+	-webkit-transform: scale(.8,.8);
+	transform: scale(.8,.8);
+	opacity: 0;
+}
+
+#copy-4, #copy-4 > img {
+	width: 237px;
+	height: 124px;
+}
+
+#burger-bg {
+	left: -184px;
+    top: -108px;
+}
+
+#burger-img {
+	display: inline-block;
+	
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+}
+
+#burger-bg, #burger-img, #burger-bg > img {
+	width: 483px;
+	height: 384px;
+}
+
+#end-content {
+	z-index: 5;
+	position: relative;
+}
+
+#cta {
+	left: 167px;
+    top: 215px;
+	
+	-ms-transform: scale(.9,.9);
+	-webkit-transform: scale(.9,.9);
+	transform: scale(.9,.9);
+}
+
+#cta, #cta > img {
+	width: 100px;
+	height: 24px;
+}
+
+#desc-copy {
+	left: 10px;
+    top: 116px;
+}
+
+#desc-copy, #desc-copy > img {
+	width: 128px;
+	height: 54px;
+}
+
+#legal {
+	top: 223px;
+	left: 60px;
+}
+
+#legal, #legal > img {
+	width: 92px;
+	height: 9px;
+}
